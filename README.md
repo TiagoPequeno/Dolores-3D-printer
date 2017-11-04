@@ -33,3 +33,5 @@ ajudaram a entender.
 	https://www.thingiverse.com/thing:1182119 A peça ficou perfeitamente ajustada, a impressão ótima
 	
 9. Relatar problema com fuga de corrente, aterramento e possivel queima do CI de comunicação serial no Arduino Mega controlador de Dolores;
+
+10. Trocar o Mega e carregar qual dos dois Marlin?
