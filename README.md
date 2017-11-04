@@ -1,4 +1,4 @@
-# Dolores-3D-printer
+# Dolores-3D-impressora
 Trabalhos iniciais realizados com a impressora roots do professor Orivaldo na inPACTA
 
 1. De inicio pratiquei bastante os comandos de navegação e movimentação com a prusa nos eixos XYZ, e fui aprendendo a regular o nivelamento da mesa com o bico;
