@@ -22,5 +22,14 @@ ajudaram a entender.
 (Aqui está o arquivo completo de uso geral em qualquer impressora 3D, sendo necessario definir os parametros especificos da máquina a qual será controlada pelo código encontrado nesse compartilhado);
 	As modificações necessarias para Dolores estão registradas no repositorio: https://github.com/orivaldosantana/impressoras-3d/blob/master/CONFDolores.md , mas ficou faltando informar qual o dispositivo (board) que seleciona a referencia dessa máquina, e isso só foi percebido no vídeo https://www.youtube.com/watch?v=cpyZGah5Ct4, indicado pelo professor para servir de auxilio no procedimento de atualização do firmware, já que Dolores não respondia mais aos comandos do Pronterface após o upload do programa com as alterações que indica o repositorio.
 	A alteração é feita na aba configuration.h
-	Como medida de garantia e segurança, tinhamos um firmware de Dolores de sua ultima atualização antes de trocar o bico e a estrutura original do extrusor: https://drive.google.com/drive/folders/0B7yvZReRz0z6Ym5QbVUzcHdIQVE
-	Foi observado também um problema no momento de conectar a impressora pelo Pronterface, onde após várias tentativas o próprio programa apontou uma falha na taxa de tranferência de dados (boundrate)
+	Como medida de garantia e segurança, tinhamos um firmware de Dolores de sua ultima atualização antes de trocar o bico e a estrutura original do extrusor: https://drive.google.com/drive/folders/0B7yvZReRz0z6Ym5QbVUzcHdIQVE . Ao baixar esse arquivo, é preciso colocar tudo em uma mesma pasta (sketch). Ao tentar abrir o arquivo Marlin.ino , a IDE do Arduino vai sugerir que se crie tal pasta, porém apenas o arquivo .ino será colocado lá, sendo necessario mover o restante.
+	Foi observado também um problema no momento de conectar a impressora pelo Pronterface, onde após várias tentativas o próprio programa apontou uma falha na taxa de tranferência de dados (boundrate) - (TENTAR RECUPERAR OS PRINTS NO PC QUE DEU PROBLEMA)
+
+
+6. ajuste do extrusor;
+7. alinhamento dos motores de Z e barulho no movimento de retração vertical;
+8. Impressão da peça que substituiu a engrenagem do extrusor e bico antigos;
+
+	https://www.thingiverse.com/thing:1182119 A peça ficou perfeitamente ajustada, a impressão ótima
+	
+9. Relatar problema com fuga de corrente, aterramento e possivel queima do CI de comunicação serial no Arduino Mega controlador de Dolores;
