@@ -19,7 +19,7 @@ ajudaram a entender.
 	Para realizar a mudança na programação da impressora, foi necessario acessar a página Github de seu criador: 	https://github.com/lar-ect/impressoras-3d onde é possivel encontrar o repositorio completo de tudo sobre impressão 3D bem completo, inclusive um aprofundamento sobre a técnica de auto nivelamento da mesa de impressão em formato tutorial;
 	
 	A alteração é feita no arquivo Marlin, aberto pela IDE do Arduino (arquivo em formato .ino), do conjunto controlador da impressora que pode ser acessado em https://drive.google.com/open?id=0B7yvZReRz0z6RjZpb1BrNDZRWXc
-(ESSE MATERIAL É FECHADO PRO GRUPO DO LAR, POIS ESTÁ NO DRIVE COMPARTILHADO, COLOCAR EM DOMINIO PÚBLICO);
+(Aqui está o arquivo completo de uso geral em qualquer impressora 3D, sendo necessario definir os parametros especificos da máquina que será controlada pelo firmware que se encontra nesse compartilhado);
 	As modificações necessarias para Dolores estão registradas no repositorio: https://github.com/orivaldosantana/impressoras-3d/blob/master/CONFDolores.md , mas ficou faltando informar qual o dispositivo (board) que seleciona a referencia dessa máquina, e isso só foi percebido no vídeo https://www.youtube.com/watch?v=cpyZGah5Ct4, indicado pelo professor para servir de auxilio no procedimento de atualização do firmware, já que Dolores não respondia mais aos comandos do Pronterface após o upload do programa com as alterações que indica o repositorio.
 	A alteração é feita na aba configuration.h
 	Como medida de garantia e segurança, tinhamos um firmware de Dolores de sua ultima atualização antes de trocar o bico e a estrutura original do extrusor: https://drive.google.com/drive/folders/0B7yvZReRz0z6Ym5QbVUzcHdIQVE
