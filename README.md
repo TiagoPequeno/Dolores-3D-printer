@@ -34,4 +34,4 @@ ajudaram a entender.
 	
 9. Relatar problema com fuga de corrente, aterramento e possivel queima do CI de comunicação serial no Arduino Mega controlador de Dolores;
 
-10. Trocar o Mega e carregar qual dos dois Marlin?
+10. Trocar o Mega e carregar qual dos dois Marlin? Sugestão... carrega um e testa, carrega o outro e testa... ;)
