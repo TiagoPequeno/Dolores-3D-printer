@@ -1,0 +1,11 @@
+1. Usando SUPORTES VERTICAIS na impressão:
+
+Após algumas peças defeituosas, principalmente aquelas que possuem coberturas soltas, descobri nas configurações dos parametros do Cura,
+como adicionar o recurso SUPORTE, para que a peça não deforme durante a deposição de material na superficie das camadas superiores.
+
+  No software Cura, na aba Basic, o campo Support -> Support type existem duas opções: Touching buildplate e Everywhere. Nas reticencias
+  abre uma janela para configuração Expert, onde geralmente existem valores padrões que são sugestões otimizadas. É recomendado não mudar
+  tais valores.
+
+Na impressão da peça (INCLUIR A PEÇA DA TAMPA DO CONGELADOR), usei os parametros Touching buildplate e Structure type: Lines. As camadas
+internas que estruturaram os suportes foram facilmente destacadas, sem comprometes a peça, depois que a impressão estava finalizada.
