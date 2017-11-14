@@ -41,9 +41,10 @@ ajudaram a entender.
 	https://www.thingiverse.com/thing:1182119 A peça ficou perfeitamente ajustada, a impressão ótima
 	Modelar um peça para a Ventoinha que resfria a peça e Fitas de Led doadas por Tiago para iluminar a impressão;
 	
-9. Relatar problema com fuga de corrente, aterramento e possivel queima do CI de comunicação serial no Arduino Mega controlador de Dolores;
+9. Problema com fuga de corrente, aterramento e possivel queima do CI de comunicação serial no Arduino Mega controlador de Dolores;
 
-	Trocamos a placa Arduino Mega que controla Dolores por outra e ela voltou a funcionar. Realmente a placa anterior, parece ter queimado o CI FTDI de comunicação serial. Farei uma tentativa de trocar esse CI para confirmar se foi esse o problema e reporto o resultado. (INCLUIR FOTOS). Mas por agora o novo Mega está funcionando perfeitamente, e o sistema Dolores + PC da inPACTA + Fonte de Dolores ligados em uma regua de linha e estabilizador de tensão, TUDO PERFEITAMENTE ATERRADO, ainda não resultou em choque eletrico;
+	No dia 28/10, Dolores estava muito bem, realizando várias impressões. Até que durante a impressão de uma peça o Pronterface travou, mas a impressão continuou, então depois de muito tempo com o Pronterface travado o computador apagou e quando voltou, deu um diagnostico que o driver de vídeo dele havia se recuperado de uma falha, e foi quando Dolores parou de imprimir ficando com a peça presa na mesa. O computador não reconhece mais o Arduino Mega. Após várias tentativas de restabelecer comunicação e voltar a controlar a impressora, reinstalando o driver manualmente (Um dos erros reportados: Este dispositivo está desabilitado porque o firmware do dispositivo não lhe forneceu os recursos necessários. (Código 29)), trocando cabo USB, tentando reparar o PC, conectando em outro computador, confirmo a suspeita que o CI de comunicação serial do Arduino Mega queimou.
+	Trocamos a placa Arduino Mega que controlava Dolores por outra e ela voltou a funcionar. Realmente a placa anterior, parece ter queimado o CI FTDI de comunicação serial. Farei uma tentativa de trocar esse CI para confirmar se foi esse o problema e reporto o resultado. (INCLUIR FOTOS). Mas por agora o novo Mega está funcionando perfeitamente, e o sistema Dolores + PC da inPACTA + Fonte de Dolores ligados em uma regua de linha e estabilizador de tensão, TUDO PERFEITAMENTE ATERRADO, ainda não resultou em choque eletrico;
 
 10. Trocar o Mega e carregar qual dos dois Marlin? Sugestão... carrega um e testar, carrega o outro e testar... ;)
 	
