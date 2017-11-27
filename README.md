@@ -54,4 +54,6 @@ ajudaram a entender.
 	Segundo teste: Marlin Geral com configurações para Dolores - A executar;
 		Resultados: Observar se assim o barulho dos saltos volta a atacar;
 		
+		http://forums.reprap.org/read.php?415,744608
+	
 11. Os drivers para o novo Mega acoplado dia 5/11 na Dolores devem ser instalados manualmente e baixados em http://www.arduined.eu/ch340g-converter-windows-7-driver-download/ , caso utilize um SO windows 7 no computador
